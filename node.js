@@ -6,12 +6,39 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
+        enunciado: "Qual é a principal causa da mudança climática?",
+        alternativas: [a) Emissões de gases de efeito estufa
+b) Poluição dos oceanos]       
+            {
+                texto: "As emissões de gases de efeito estufa, como CO2 e metano, intensificam o aquecimento global, contribuindo significativamente para as mudanças climáticas.",
+                afirmacao: "As emissões de gases de efeito estufa, como CO2 e metano, intensificam o aquecimento global, contribuindo significativamente para as mudanças climáticas."
+            },
+            {
+                texto:  "A queima de combustíveis fósseis e a desflorestação aumentam as concentrações de gases de efeito estufa na atmosfera, acelerando o processo de mudança climática.",
+                afirmacao: "A queima de combustíveis fósseis e a desflorestação aumentam as concentrações de gases de efeito estufa na atmosfera, acelerando o processo de mudança climática.
+"
+            }
+        ]
+{
+        enunciado: "O que pode ajudar a conservar a biodiversidade?",
+        alternativas: [ a) Aumentar as áreas protegidas
+b) Reduzir o uso de plástico]       
+            {
+                texto: "Criar mais áreas protegidas, como parques e reservas, é essencial para preservar habitats naturais e proteger espécies ameaçadas.",
+                afirmacao: "O desmatamento é uma das principais causas da perda de biodiversidade."
+            },
+            {
+                texto:  "Reduzir o uso de plástico ajuda a diminuir a poluição e proteger a vida selvagem dos impactos do plástico, embora não resolva diretamente todos os problemas de biodiversidade.",
+                afirmacao: "A energia renovável é uma alternativa sustentável às fontes de energia fósseis."
+            }
+        ]
+    {
         enunciado: "Qual é uma prática eficaz para conservar água em casa?",
         alternativas: [ a- Tomar banhos longos,
 b- Fechar a torneira enquanto escova os dentes,
 c- Usar um aspirador de água para limpar o chão,]       
             {
-                texto: "A prática de fechar a torneira enquanto escova os dentes é a mais eficaz para conservar água. Deixar a torneira aberta pode desperdiçar até 10 litros de água em dois minutos, enquanto fechar a torneira durante a escovação é uma maneira simples e eficiente de economizar esse recurso vital. Em contraste, tomar banhos longos resulta em um alto consumo de água, com cerca de 100 litros sendo usados em um banho de 10 minutos, o que contribui para o desperdício de água. Embora usar um aspirador de água para limpar o chão possa ser prático para a limpeza, não está diretamente relacionado à conservação de água e, na verdade, pode levar a um aumento no consumo total de água.",
+                texto: "A poluição dos oceanos, incluindo plásticos e produtos químicos, prejudica os ecossistemas marinhos, mas não é a principal causa do aquecimento global.",
                 afirmacao: "Portanto, fechar a torneira ao escovar os dentes é a melhor prática para conservar água."
             },
             {
