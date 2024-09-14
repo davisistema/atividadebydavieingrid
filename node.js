@@ -1,3 +1,4 @@
+
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -5,48 +6,51 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
+
+[
     {
-        enunciado: "Qual é a principal causa da mudança climática?",
-        alternativas: [a) Emissões de gases de efeito estufa
-b) Poluição dos oceanos]       
+        "enunciado": "Qual das seguintes ações é mais eficaz para preservar o meio ambiente?",
+        "alternativas": [ a-Reduzir o consumo de plástico é fundamental b-Programas de reciclagem são essenciais]
             {
-                texto: "As emissões de gases de efeito estufa, como CO2 e metano, intensificam o aquecimento global, contribuindo significativamente para as mudanças climáticas.",
-                afirmacao: "As emissões de gases de efeito estufa, como CO2 e metano, intensificam o aquecimento global, contribuindo significativamente para as mudanças climáticas."
+                "texto": "Reduzir o consumo de plástico e adotar materiais reutilizáveis.",
+                "afirmacao": "Você acredita que reduzir o uso de plástico e optar por materiais reutilizáveis ajuda a diminuir a poluição e preservar os recursos naturais."
             },
             {
-                texto:  "A queima de combustíveis fósseis e a desflorestação aumentam as concentrações de gases de efeito estufa na atmosfera, acelerando o processo de mudança climática.",
-                afirmacao: "A queima de combustíveis fósseis e a desflorestação aumentam as concentrações de gases de efeito estufa na atmosfera, acelerando o processo de mudança climática.
-"
+                "texto": "Participar de programas de reciclagem e incentivar a coleta seletiva.",
+                "afirmacao": "Você considera que a reciclagem e a coleta seletiva são práticas essenciais para reduzir a quantidade de resíduos e o impacto ambiental."
             }
         ]
-{
-        enunciado: "O que pode ajudar a conservar a biodiversidade?",
-        alternativas: [ a) Aumentar as áreas protegidas
-b) Reduzir o uso de plástico]       
-            {
-                texto: "Criar mais áreas protegidas, como parques e reservas, é essencial para preservar habitats naturais e proteger espécies ameaçadas.",
-                afirmacao: "O desmatamento é uma das principais causas da perda de biodiversidade."
-            },
-            {
-                texto:  "Reduzir o uso de plástico ajuda a diminuir a poluição e proteger a vida selvagem dos impactos do plástico, embora não resolva diretamente todos os problemas de biodiversidade.",
-                afirmacao: "A energia renovável é uma alternativa sustentável às fontes de energia fósseis."
-            }
-        ]
+    }
+
     {
-        enunciado: "Qual é uma prática eficaz para conservar água em casa?",
-        alternativas: [ a- Tomar banhos longos,
-b- Fechar a torneira enquanto escova os dentes,
-c- Usar um aspirador de água para limpar o chão,]       
+        "enunciado": "Como podemos contribuir para reduzir as mudanças climáticas?",
+        "alternativas": [a-Ao utilizar transportes sustentáveis, como bicicletas ou transporte público, diminuímos nossa pegada de carbono, contribuindo para a redução das emissões de gases b- O investimento em energia renovável,é crucial para a transição para uma matriz energética limpa ]
             {
-                texto: "A poluição dos oceanos, incluindo plásticos e produtos químicos, prejudica os ecossistemas marinhos, mas não é a principal causa do aquecimento global.",
-                afirmacao: "Portanto, fechar a torneira ao escovar os dentes é a melhor prática para conservar água."
+                "texto": "Optando por meios de transporte sustentáveis, como bicicletas ou transporte público.",
+                "afirmacao": "Você acredita que a escolha de transportes sustentáveis ajuda a reduzir as emissões de carbono e desacelerar as mudanças climáticas."
             },
             {
-                texto:  "A prática de desligar os aparelhos eletrônicos quando não estão em uso é a mais eficaz para reduzir o consumo de energia em casa. Aparelhos em modo de espera (standby) ainda consomem energia, conhecida como energia fantasma, o que pode somar uma quantidade significativa no final do mês. Em comparação, deixar os eletrônicos em modo de espera não resolve o problema do consumo contínuo de energia e contribui para o desperdício. Usar iluminação decorativa em vez de iluminação principal pode reduzir o consumo de energia apenas em menor escala, pois a eficiência energética depende mais da utilização geral de eletricidade e da eficiência dos próprios aparelhos de iluminação.",
-                afirmacao: "Portanto, desligar os aparelhos eletrônicos quando não estão em uso é a melhor ação para reduzir o consumo de energia."
+                "texto": "Investindo em energia renovável, como solar e eólica.",
+                "afirmacao": "Você considera que o uso de energia renovável é uma solução viável para diminuir a dependência de combustíveis fósseis e mitigar os efeitos das mudanças climáticas."
             }
         ]
     },
+    {
+        "enunciado": "O que pode ser feito para reduzir a poluição dos oceanos?",
+        "alternativas": [a-Reduzir o uso de plásticos descartáveis pode diminuir drasticamente a quantidade de resíduos que chegam aos oceanos b-Campanhas de conscientização e limpeza de praias.]
+            {
+                "texto": "Reduzir o uso de plásticos descartáveis e promover a reciclagem.",
+                "afirmacao": "Você acredita que a redução do uso de plásticos descartáveis pode ajudar a diminuir a quantidade de resíduos nos oceanos."
+            },
+            {
+                "texto": "Incentivar a limpeza das praias e a conscientização sobre a poluição marinha.",
+                "afirmacao": "Você considera que campanhas de limpeza e conscientização são eficazes para reduzir a poluição nos mares e oceanos."
+            }
+        ]
+    }
+]
+  }
+
     // adicione acima as pergundas substituindo as originais
     let atual = 0;
 let perguntaAtual;
@@ -86,4 +90,4 @@ function mostraResultado(){
     caixaAlternativas.textContent  = "";
 }
 
-mostraPergunta();
+mostraPergunta(); 
